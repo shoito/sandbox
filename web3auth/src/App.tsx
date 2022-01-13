@@ -25,11 +25,9 @@ function App() {
     }
   }
 
-  // TODO make connect button
-  connect();
-
   return (
     <div className="App">
+      <button onClick={connect}>Connect</button>
       {address}
     </div>
   );
